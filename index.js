@@ -7,15 +7,15 @@
 // console.log(customDelete([1, 2, 3], 1, 2))
 
 
-const multiples = (base, limit) => {
-    if (!Number.isInteger((limit / base))) return 'Invalid Numbers'
-    let result = []
-    for (let i = 1; i < (limit / base + 1); i++) {
-        result.push(base * i)
-    }
-    return result
-}
-console.log(multiples(5, 29))
+// const multiples = (base, limit) => {
+//     if (!Number.isInteger((limit / base))) return 'Invalid Numbers'
+//     let result = []
+//     for (let i = 1; i < (limit / base + 1); i++) {
+//         result.push(base * i)
+//     }
+//     return result
+// }
+// console.log(multiples(5, 29))
 
 // const alternate = (a, b) => {
 //     let alternatedString = ''
@@ -66,6 +66,11 @@ console.log(multiples(5, 29))
 //     return arr;
 // }
 // console.log(multiples(5, 20))
+// console.log(!true)
+// console.log(!true)
+// console.log(!true)
+// console.log(!true)
+// console.log(!true)
 // console.log(!true)
 
 
